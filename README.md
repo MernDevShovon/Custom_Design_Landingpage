@@ -1,7 +1,2 @@
-# Custom Design Landing Page
-
-Welcome to my custom design landing page project! 😊✨  
-I learned how to create this from **Chai Aur Code**. A huge thank you to them for the amazing tutorials! 🙌
-
-Happy coding! 💻❤️
-
+# Custom_Design_Landingpage
+This is a custom design landing page design. and i learn from chai aur code.
