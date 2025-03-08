@@ -1,27 +1,75 @@
-body , html{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 100vh;
-
+body , html {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   height: 100%;
 }
 
-
 .container{
-    background: linear-gradient(#1a1a1a, #fff);
+    background: linear-gradient(135deg, #5a4eff ,#fff);
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 
 .content{
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(201, 127, 127, 0.3);
+    padding: 40px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(255, 102, 0, 0.5)
 }
 
+h1{
+    font-size: large;
+    color: #fff;
+}
+
+p{
+    font-size: small;
+    color: #fff;
+}
+
+input[type="email"]{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    width: 300px;
+}
+
+input[type="email"]:hover{
+   background-color: #f0f0f0;
+   box-shadow:  rgba(0, 0, 0, 0.2);
+   border-color: #fff;
+   outline: none;
+}
 
 .logo{
     width: 150px;
-    height: 50px;
+    height: 100%;
+    margin-bottom: 5px;
+}
+
+.Notify{
+    background-color: #4400ff;
+    border: none;
+    width: 150px;
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(255, 102, 0, 0.5);
+    transition: background-color 0.3s ease-in-out; 
+    
+}
+
+.Notify:hover{
+    background-color: #fff;
+    color: black;
+    outline: none;
 }
